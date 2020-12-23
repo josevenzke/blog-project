@@ -14,10 +14,10 @@
     {% endif %}
 
   </head>
-  <body>
+  <body style="background:#cfe6d6;">
     <!-- NAV MENU -->
     <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <nav style="background:#026923;" class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
           <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
           {% block content %}{% endblock %}
         </div>
         <div class="col-md-4">
-          <div class="content-section">
+          <div style="background:#9dbda7;" class="content-section">
             <h3>Sidebar</h3>
             <p class='text-muted'>texto aqui!
               <ul class="list-group">
