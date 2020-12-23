@@ -8,6 +8,16 @@
       <p class="text-secondary">{{ user.email }}</p>
     </div>
   </div>
-  <!-- FORM HERE -->
+    <form method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <fieldset class="form-group">
+        <legend class="border-bottom mb-4">Informações</legend>
+        {{ u_form }}
+        {{ p_form }}
+      </fieldset>
+      <div class="form-group">
+        <button type="submite" class="btn btn-outline-info">Atualizar</button>
+      </div>
+    </form>
   </div>
 {% endblock content %}
