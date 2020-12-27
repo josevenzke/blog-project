@@ -1,6 +1,6 @@
 {% extends "blog/base.html" %}
 {% block content %}
-  <div class="content-section">
+  <div class="content-section" style="background:#9dbda7;">
   <div class="media">
     <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
     <div class="media-body">
@@ -16,7 +16,7 @@
         {{ p_form }}
       </fieldset>
       <div class="form-group">
-        <button type="submite" class="btn btn-outline-info">Atualizar</button>
+        <button type="submite" class="btn btn-info">Atualizar</button>
       </div>
     </form>
   </div>

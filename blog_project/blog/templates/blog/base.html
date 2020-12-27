@@ -28,9 +28,11 @@
               <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
               {% if user.is_authenticated %}
                 <a class="nav-item nav-link" href="{% url 'perfil' %}">Perfil</a>
+                <a class="nav-item nav-link" href="{% url 'post-create' %}">+ Post</a>
               {% else %}
                 <a class="nav-item nav-link" href="{% url 'blog-about'%}">Sobre</a>
               {% endif %}
+
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
