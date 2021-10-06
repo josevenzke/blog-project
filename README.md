@@ -50,4 +50,4 @@ Here's some of the stuff you will need to install.
 
 José Venzke -  josevenzkejr@gmail.com
 
-Project Link: [https://github.com/josevenzke/librario-api](https://github.com/josevenzke/librario-api)
+Project Link: [https://github.com/josevenzke/blog-project](https://github.com/josevenzke/blog-project)
